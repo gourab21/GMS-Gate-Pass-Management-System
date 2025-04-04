@@ -11,8 +11,8 @@ const char* ssid = "compscPG";
 const char* password = "43073008";
 
 // Firebase Realtime Database URL
-const char* firebaseHost = "https://gatepass-3e72f-default-rtdb.asia-southeast1.firebasedatabase.app/";
-const char* firebaseAuth = "AIzaSyBqLyGUfBH9i8NMuRSnVOX30ZALz62pBIU";
+const char* firebaseHost = "**************";
+const char* firebaseAuth = "*********************";
 
 // RFID Setup
 #define SS_PIN 5
