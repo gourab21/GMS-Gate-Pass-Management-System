@@ -1,7 +1,61 @@
-<html>
-<head></head>
-<body bgcolor="green">
-    <font size="10" color = "white"><center>This is sample site</center></font>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GMS</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        overflow-x: hidden;
+        background: #0a0a0a; /* Dark background */
+      }
+      body {
+        min-height: 100vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      img {
+        width: 100%;
+        max-width: 1500px; /* Added max-width to control size */
+        height: auto;
+        display: block;
+      }
+    </style>
+  </head>
+  <body onclick="window.location.href='index2.html'">
+    <img
+      src="assets/img/front_image.jpg"
+      alt="Background Image"
+      id="mainImage"
+    />
 
-</body>
+    <script>
+      const image = document.getElementById("mainImage");
+
+      // Gentle breeze-like movement with bounded angle
+      let angle = 0;
+      const maxAngle = Math.PI * 2; // One full cycle (360 degrees in radians)
+
+      function breezeEffect() {
+        angle += 0.12; // Controls speed of movement
+        if (angle >= maxAngle) {
+          angle = 0; // Reset angle to prevent accumulation
+        }
+
+        const swayX = Math.sin(angle) * 20; // Subtle horizontal movement (2px max)
+
+        image.style.transform = `translate(${swayX}px, ${swayY}px)`;
+        requestAnimationFrame(breezeEffect);
+      }
+
+      // Start the breeze effect
+      breezeEffect();
+    </script>
+  </body>
 </html>
