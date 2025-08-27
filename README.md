@@ -3,16 +3,11 @@
 
 This project is a smart, IoT-powered Gate Pass Management System designed for hostels, institutions, and gated communities. It leverages RFID technology, Firebase Realtime Database, MySQL, and ESP32 microcontroller to automate and secure entry/exit tracking of individuals.
 
-
-
-
-
 🔗 Repository URL: https://github.com/gourab21/GMS-Gate-Pass-Management-System
 
-📸 Demo Snapshots:
-- RFID Device with LED and Buzzer Feedback
-- Firebase Dashboard with Realtime Logs
-- Admin/Warden/Student Web Portals
+
+
+
 
 🚀 Features
 
