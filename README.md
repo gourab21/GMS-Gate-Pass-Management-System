@@ -5,7 +5,7 @@ This project is a smart, IoT-powered Gate Pass Management System designed for ho
 
 🔗 Repository URL: https://github.com/gourab21/GMS-Gate-Pass-Management-System
 
-
+front_image.jpg
 
 
 
